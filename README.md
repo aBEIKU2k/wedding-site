@@ -1,4 +1,4 @@
-# Chris & Gettyberth Wedding Website
+# Wedding Website
 
 A modern, premium, and responsive single-page wedding website built with React, Tailwind CSS, and Framer Motion.
 

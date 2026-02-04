@@ -164,7 +164,18 @@ const EventDetails = () => {
                 >
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                 </motion.svg>
-                <span className="text-lg font-semibold">Strictly Burgundy</span>
+                <span className="text-lg font-semibold">Traditional Wear</span>
+              </motion.div>
+              <motion.div
+                className="mt-4 p-4 bg-burgundy/10 rounded-lg border border-burgundy/20"
+                initial={{ opacity: 0, scale: 0.9 }}
+                animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.9 }}
+                transition={{ delay: 0.7, duration: 0.5 }}
+                whileHover={{ scale: 1.05, borderColor: 'rgba(128, 0, 32, 0.4)' }}
+              >
+                <p className="text-gray-700">
+                  <span className="font-semibold text-burgundy">Burgundy preferred</span> for a cohesive celebration
+                </p>
               </motion.div>
             </div>
           </motion.div>

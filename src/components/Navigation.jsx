@@ -41,7 +41,7 @@ const Navigation = () => {
   const navItems = [
     { label: 'Story', id: 'story' },
     { label: 'Details', id: 'details' },
-    { label: 'Best People', id: 'wedding-party' },
+    { label: 'Wedding Party', id: 'wedding-party' },
     { label: 'Programme', id: 'programme' },
     { label: 'Gallery', id: 'gallery' },
     { label: 'Gifts', id: 'gifts' },
@@ -80,8 +80,8 @@ const Navigation = () => {
                 whileHover={{ scale: 1.1, y: -2 }}
                 whileTap={{ scale: 0.95 }}
                 className={`font-sans text-sm lg:text-base transition-colors duration-200 relative ${activeSection === item.id
-                    ? 'text-burgundy font-semibold'
-                    : isScrolled ? 'text-gray-700 hover:text-burgundy' : 'text-white hover:text-burgundy'
+                  ? 'text-burgundy font-semibold'
+                  : isScrolled ? 'text-gray-700 hover:text-burgundy' : 'text-white hover:text-burgundy'
                   }`}
               >
                 {item.label}
